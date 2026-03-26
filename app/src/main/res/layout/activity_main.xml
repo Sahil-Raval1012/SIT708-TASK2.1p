@@ -30,8 +30,6 @@
             android:textColor="#4d5b37"
             android:gravity="center"
             android:paddingBottom="20dp"/>
-
-        <!-- Category Spinner -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -45,8 +43,6 @@
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginBottom="20dp"/>
-
-        <!-- From Spinner -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -61,7 +57,6 @@
             android:layout_height="48dp"
             android:layout_marginBottom="20dp"/>
 
-        <!-- To Spinner -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -76,7 +71,6 @@
             android:layout_height="48dp"
             android:layout_marginBottom="20dp"/>
 
-        <!-- Input -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -94,8 +88,6 @@
             android:paddingStart="12dp"
             android:textSize="18sp"
             android:layout_marginBottom="16dp"/>
-
-        <!-- Convert Button -->
         <Button
             android:id="@+id/buttonConvert"
             android:layout_width="match_parent"
@@ -106,8 +98,6 @@
             android:textStyle="bold"
             android:backgroundTint="#4d5b37"
             android:layout_marginBottom="20dp"/>
-
-        <!-- Result -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -115,7 +105,6 @@
             android:textColor="#4d5b37"
             android:textSize="14sp"
             android:paddingBottom="8dp"/>
-
         <TextView
             android:id="@+id/textViewResult"
             android:layout_width="match_parent"
