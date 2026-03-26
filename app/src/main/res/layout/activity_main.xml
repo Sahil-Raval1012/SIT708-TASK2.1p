@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D3D3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Travel Companion"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#4d5b37"
+            android:gravity="center"
+            android:paddingTop="16dp"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Currency · Fuel · Temperature"
+            android:textSize="18sp"
+            android:textColor="#4d5b37"
+            android:gravity="center"
+            android:paddingBottom="20dp"/>
+
+        <!-- Category Spinner -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textColor="#4d5b37"
+            android:textSize="14sp"
+            android:paddingBottom="4dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerCategory"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- From Spinner -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Initial Value"
+            android:textColor="#4d5b37"
+            android:textSize="14sp"
+            android:paddingBottom="4dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerFrom"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- To Spinner -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Final Value"
+            android:textColor="#4d5b37"
+            android:textSize="14sp"
+            android:paddingBottom="4dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerTo"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Input -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Value"
+            android:textColor="#4d5b37"
+            android:textSize="14sp"
+            android:paddingBottom="4dp"/>
+
+        <EditText
+            android:id="@+id/editTextInput"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="numberDecimal|numberSigned"
+            android:hint="Enter any number"
+            android:paddingStart="12dp"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Convert Button -->
+        <Button
+            android:id="@+id/buttonConvert"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Enter"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="#4d5b37"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Result -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:textColor="#4d5b37"
+            android:textSize="14sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/textViewResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select the value and then click the Enter button"
+            android:textSize="16sp"
+            android:textColor="#4d5b37"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:minHeight="48dp"
+            android:paddingBottom="32dp"/>
+
+    </LinearLayout>
+</ScrollView>
